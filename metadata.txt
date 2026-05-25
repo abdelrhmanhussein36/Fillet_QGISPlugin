@@ -1,20 +1,25 @@
-
+[general]
 name=Fillet Tool
 qgisMinimumVersion=3.0
-qgisMaximumVersion=3.99
-description=Round polygon corners with tangent arcs - ArcGIS Pro style fillet tool for QGIS
-version=2.0
-author=Abdelrhman Hussien
-email=abdelrhmanhussein36@gmail.com
-about=This plugin allows you to fillet (round) corners of polygon features by creating smooth tangent arcs between two adjacent edges. Perfect for agricultural fields, land boundaries, and any polygon that needs rounded corners.\n\nFeatures:\n• Auto-calculates maximum possible radius based on edge lengths\n• Visual preview before applying\n• Works with multipart polygons\n• ArcGIS Pro style workflow\n\nHow to use:\n1. Select a polygon layer in the Layers panel\n2. Enable editing mode (yellow pencil icon)\n3. Launch Fillet Tool from toolbar or Plugins menu\n4. Click 'Pick Polygon' and click inside your polygon\n5. Click 'Pick Corner' and click on the corner vertex\n6. Adjust radius (auto-set to 80% of max)\n7. Click 'Apply Fillet'
-
-https://github.com/abdelrhmanhussein36/Fillet_QGISPlugin.gitl
-
-category=Vector
+description=ArcGIS Pro style fillet tool for rounding polygon corners by clicking on edges
+version=1.0
+author=Your Name
+email=your.email@example.com
+about=This plugin allows you to fillet polygon corners with a smooth arc. Select two adjacent edges, set the radius, and apply the fillet.
 icon=icon.png
+category=Vector
+experimental=False
+deprecated=False
 
-# Tags for searching in Plugin Manager
-tags=fillet,round,corner,arc,curve,polygon,edit,reshape,tangent,agriculture
+[details]
+changelog=Version 1.0 - Initial release with edge selection, drag-to-set radius, undo support
 
+[features]
+- Click on two adjacent polygon edges to fillet the corner
+- Manual radius input or drag on map to set radius
+- Real-time arc preview
+- Ctrl+Z undo support - layer stays in edit mode
+- Works with any polygon layer
 
-
+[tags]
+fillet, rounding, corners, polygon, vector, editing, arc, smooth
