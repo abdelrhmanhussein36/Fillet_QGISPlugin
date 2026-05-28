@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+# Auto-generated resource file for FilletPlugin
+# The icon is embedded as base64 — no file path dependency.
+from qgis.PyQt import QtCore
+
+def qInitResources():
+    pass  # kept for compatibility
+
+def qCleanupResources():
+    pass
+
+# ---------- embedded icon.png ----------
+_ICON_PNG_B64 = (
+    "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"
+)
+
+import base64 as _b64
+from qgis.PyQt.QtGui import QPixmap, QIcon
+from qgis.PyQt.QtCore import QByteArray
+
+def get_icon():
+    """Return a QIcon built from the embedded PNG bytes."""
+    data = _b64.b64decode(_ICON_PNG_B64)
+    ba = QByteArray(data)
+    px = QPixmap()
+    px.loadFromData(ba, "PNG")
+    return QIcon(px)
